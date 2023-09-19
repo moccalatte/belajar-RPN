@@ -27,7 +27,6 @@ fifth_word_length = len(fifth_word4)
 
 sentence = first_word_length + second_word_length + third_word_length + fourth_word_length + fifth_word_length
 
-print('=============================================================================')
 print(f'First Word: "{first_word4}" with length: {first_word_length} alphabets.')
 print(f'Second Word: "{second_word4}" with length: {second_word_length} alphabets.')
 print(f'Third Word: "{third_word4}" with length: {third_word_length} alphabets.')
