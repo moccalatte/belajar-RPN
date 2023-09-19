@@ -31,6 +31,6 @@ print(f'First Word: "{first_word4}" with length: {first_word_length} alphabets.'
 print(f'Second Word: "{second_word4}" with length: {second_word_length} alphabets.')
 print(f'Third Word: "{third_word4}" with length: {third_word_length} alphabets.')
 print(f'Fourth Word: "{fourth_word4}" with length: {fourth_word_length} alphabets.')
-print(f'Fifth Word: "{fifth_word4}" with length: {fifth_word_length} alphabets.')
+print(f'Fifth Word: "{fifth_word4}" with length: {fifth_word_length} alphabets..')
 
 print(f'Sentence: {first_word4} {second_word4} {third_word4} {fourth_word4} {fifth_word4} with total length: {sentence} alphabets.')
