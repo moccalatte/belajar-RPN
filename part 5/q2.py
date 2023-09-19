@@ -36,7 +36,7 @@ def main():
             print("Bulan tidak valid.")
 
     except ValueError:
-        print("Input tidak valid. Pastikan kamu memasukkan angka.")
+        print("Pastikan kamu memasukkan angka.")
 
 
 if __name__ == "__main__":
