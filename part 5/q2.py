@@ -20,13 +20,13 @@ def main():
 
         # validasi tanggal, bulan, dan tahun
         if not (1 <= tanggal <= 31):
-            print("Tanggal tidak valid. Harus dalam rentang 1-31.")
+            print("Harus dalam rentang 1-31.")
             return
         if not (1 <= bulan <= 12):
-            print("Bulan tidak valid. Harus dalam rentang 1-12.")
+            print("Harus dalam rentang 1-12.")
             return
         if not (1900 <= tahun <= 2200):
-            print("Tahun tidak valid. Harus dalam rentang 1900-2200.")
+            print("Harus dalam rentang 1900-2200.")
             return
 
         nama_bulan_str = nama_bulan(bulan)
@@ -36,7 +36,7 @@ def main():
             print("Bulan tidak valid.")
 
     except ValueError:
-        print("Input tidak valid. Pastikan Anda memasukkan angka.")
+        print("Input tidak valid. Pastikan kamu memasukkan angka.")
 
 
 if __name__ == "__main__":
