@@ -1,10 +1,7 @@
-# bitwise atau binary numbers
-a = 15
-b = 10
+def cuaks(*args):
+    for item in args:
+        print(item)
 
-print(~a)
-print(a&b)
-print(a|b)
-print(a^b)
-print(a<<b)
-print(a>>b)
+
+cuaks(1,2,3,4)
+cuaks([1,2],[3,4])
