@@ -9,11 +9,11 @@ let pertama = "Looping Pertama";
 let kedua = "Looping Kedua";
 
 console.log(pertama);
-for (let a = 0; a <= 5; a++) {
-  console.log(a);
+for (let i = 0; i <= 5; i++) {
+  console.log(i);
 }
 
 console.log(kedua);
-for (let b = 5; b >= 0; b--) {
-  console.log(b);
+for (let j = 5; j >= 0; j--) {
+  console.log(j);
 }

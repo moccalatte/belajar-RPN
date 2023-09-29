@@ -4,8 +4,8 @@
 
 function balikKata(kata) {
   let dibalik = "";
-  for (a = kata.length - 1; a >= 0; a--) {
-    dibalik += kata[a];
+  for (i = kata.length - 1; i >= 0; i--) {
+    dibalik += kata[i];
   }
   return dibalik;
 }
@@ -16,7 +16,3 @@ console.log(balikKata("John Doe")); // eoD nhoJ
 console.log(balikKata("I am a bookworm")); // mrowkoob a ma I
 console.log(balikKata("Coding is my hobby")); // ybboh ym si gnidoC
 console.log(balikKata("Super")); // repuS
-
-// ------------------------------------
-console.log("");
-// ------------------------------------

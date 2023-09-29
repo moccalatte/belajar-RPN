@@ -11,7 +11,3 @@ function calculateMultiply(num1, num2) {
 
 hasilPerkalian = calculateMultiply(2, 3);
 console.log(`hasilnya adalah ${hasilPerkalian}`);
-
-// ------------------------------------
-console.log("");
-// -----------------------------------

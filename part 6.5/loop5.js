@@ -10,15 +10,15 @@
 
 let bintang = "*";
 
-for (let a = 0; a < 5; a++) {
+for (let i = 0; i < 5; i++) {
   console.log(bintang);
-  bintang += bintang[a];
+  bintang += bintang[i];
 }
 
 let hasil = "";
 
-for (let b = 5; b > 0; b--) {
-  for (let c = 0; c < b; c++) {
+for (let j = 5; j > 0; j--) {
+  for (let k = 0; k < j; k++) {
     hasil += "*";
   }
   hasil += "\n";

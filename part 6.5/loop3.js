@@ -10,20 +10,20 @@
 
 console.log("While loop");
 a = 101;
-while (a > 1) {
+while (i > 1) {
   a--;
-  if (a % 2 === 0) {
-    console.log(`${a} adalah GENAP`);
-  } else if (a % 2 !== 0) {
-    console.log(`${a} adalah GANJIL`);
+  if (i % 2 === 0) {
+    console.log(`${i} adalah GENAP`);
+  } else if (i % 2 !== 0) {
+    console.log(`${i} adalah GANJIL`);
   }
 }
 
 console.log("\nFor Loop");
-for (let b = 1; b <= 100; b++) {
-  if (b % 2 === 0) {
-    console.log(`${b} adalah GENAP`);
-  } else if (b % 2 !== 0) {
-    console.log(`${b} adalah GANJIL`);
+for (let j = 1; j <= 100; j++) {
+  if (j % 2 === 0) {
+    console.log(`${j} adalah GENAP`);
+  } else if (j % 2 !== 0) {
+    console.log(`${j} adalah GANJIL`);
   }
 }

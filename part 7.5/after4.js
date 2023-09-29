@@ -8,11 +8,11 @@ function xo(str) {
   let jumlahX = 0;
   let jumlahO = 0;
 
-  for (let a = 0; a < str.length; a++) {
-    if (str[a] === karakterX) {
+  for (let i = 0; i < str.length; i++) {
+    if (str[i] === karakterX) {
       jumlahX++;
     }
-    if (str[a] === karakterO) {
+    if (str[i] === karakterO) {
       jumlahO++;
     }
   }

@@ -9,7 +9,3 @@ function shoutOut() {
   return hasil;
 }
 console.log(shoutOut());
-
-// ------------------------------------
-console.log("");
-// ------------------------------------

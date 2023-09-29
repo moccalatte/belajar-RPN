@@ -7,28 +7,28 @@
 // "3 kelipatan 3"dan seterusnya.
 
 console.log("Pertambahan 2");
-for (let a = 1; a < 100; a += 2) {
-  if (a % 3 === 0) {
-    console.log(`${a} adalah kelipatan 3`);
+for (let i = 1; i < 100; i += 2) {
+  if (i % 3 === 0) {
+    console.log(`${i} adalah kelipatan 3`);
   } else {
-    console.log(a);
+    console.log(i);
   }
 }
 
 console.log("\nPertambahan 5");
-for (let b = 0; b < 100; b += 5) {
-  if (b % 6 === 0) {
-    console.log(`${b} adalah kelipatan 6`);
+for (let j = 0; j < 100; j += 5) {
+  if (j % 6 === 0) {
+    console.log(`${j} adalah kelipatan 6`);
   } else {
-    console.log(b);
+    console.log(j);
   }
 }
 
 console.log("\nPertambahan 9");
-for (let c = 0; c < 100; c += 9) {
-  if (c % 10 === 0) {
-    console.log(`${c} adalah kelipatan 10`);
+for (let k = 0; k < 100; k += 9) {
+  if (k % 10 === 0) {
+    console.log(`${k} adalah kelipatan 10`);
   } else {
-    console.log(c);
+    console.log(k);
   }
 }

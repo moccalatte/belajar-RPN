@@ -8,17 +8,17 @@
 let pertama = "Looping Pertama";
 let kedua = "\nLooping Kedua";
 
-a = 0;
-b = 5;
+i = 0;
+j = 5;
 
 console.log(pertama);
-while (a <= 5) {
-  console.log(a);
-  a++;
+while (i <= 5) {
+  console.log(i);
+  i++;
 }
 
 console.log(kedua);
-while (b >= 0) {
-  console.log(b);
-  b--;
+while (j >= 0) {
+  console.log(j);
+  j--;
 }
